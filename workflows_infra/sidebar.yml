@@ -1,0 +1,48 @@
+---
+section: workflows_infra
+title: 基礎架構工作流程
+entries:
+- title: 開始之前
+  url: "/workflows_infra/workflows_infra_before.html"
+- title: 身分識別與存取
+  entries:
+  - title: 列出使用者
+    url: "/workflows_infra/wf_list_users.html"
+  - title: 建立使用者
+    url: "/workflows_infra/wf_create_user.html"
+- title: LDAP 組態
+  entries:
+  - title: 準備 LDAP 組態
+    url: "/workflows_infra/ldap_prepare.html"
+  - title: 設定 LDAP 伺服器
+    url: "/workflows_infra/wf_ldap_configure_server.html"
+  - title: 將LDAP項目新增至Astra
+    url: "/workflows_infra/wf_ldap_add_entries.html"
+  - title: 停用並重設LDAP
+    url: "/workflows_infra/wf_ldap_disable_reset.html"
+- title: 叢集
+  entries:
+  - title: 列出叢集
+    url: "/workflows_infra/wf_list_clusters.html"
+  - title: 新增叢集
+    url: "/workflows_infra/wf_add_cluster.html"
+  - title: 列出託管叢集
+    url: "/workflows_infra/wf_list_man_clusters.html"
+  - title: 管理叢集
+    url: "/workflows_infra/wf_man_cluster.html"
+- title: 雲端
+  entries:
+  - title: 列出雲端
+    url: "/workflows_infra/wf_list_clouds.html"
+- title: 桶
+  entries:
+  - title: 列出庫存箱
+    url: "/workflows_infra/wf_list_buckets.html"
+- title: 儲存設備
+  entries:
+  - title: 列出儲存類別
+    url: "/workflows_infra/wf_list_storage_classes.html"
+  - title: 列出儲存後端
+    url: "/workflows_infra/wf_list_storage_backends.html"
+  - title: 啟用動態 anf 集區
+    url: "/workflows_infra/wf_enable_anf_dyn_pools.html"

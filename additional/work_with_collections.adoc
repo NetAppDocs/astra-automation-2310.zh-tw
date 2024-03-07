@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: additional/work_with_collections.html 
+keywords: collections, filtering, pagination, count 
+summary: Astra Control REST API提供數種不同的方法、可透過定義的查詢參數來存取資源集合。 
+---
+= 使用集合
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Astra Control REST API提供數種不同的方法、可透過定義的查詢參數來存取資源集合。
+
+.選擇值
+您可以使用指定每個資源執行個體應傳回的金鑰值配對 `include` 參數。所有執行個體都會傳回回應本文中。
+
+.篩選
+集合資源篩選可讓API使用者指定條件、以判斷回應本文中是否傳回資源。。 `filter` 參數用於指示篩選條件。
+
+.排序
+集合資源排序可讓API使用者指定資源在回應本文中的傳回順序。。 `orderBy` 參數用於指示篩選條件。
+
+.分頁
+您可以使用限制在要求時傳回的資源執行個體數目、來強制分頁 `limit` 參數。
+
+.數
+如果包含布林參數 `count` 設定為 `true`中、所傳回之陣列中特定回應的資源數量會在中繼資料區段中提供。

@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: rn/earlier-versions.html 
+keywords: earlier versions, earlier releases 
+summary: 您可以存取先前Astra Control版本的自動化文件。 
+---
+= 舊版Astra Control Automation文件
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以從下列連結存取先前Astra Control版本的自動化文件。
+
+* https://docs.netapp.com/us-en/astra-automation-2307/["Astra Control Automation 23.07 文件"^]
+* https://docs.netapp.com/us-en/astra-automation-2304/["Astra Control Automation 23.04 文件"^]
+* https://docs.netapp.com/us-en/astra-automation-2211/["Astra Control Automation 22.11 文件"^]
+* https://docs.netapp.com/us-en/astra-automation-2208/["Astra Control Automation 22.08 文件"^]
+* https://docs.netapp.com/us-en/astra-automation-2204/["Astra Control Automation 22.04 文件"^]
+* https://docs.netapp.com/us-en/astra-automation-2112/["Astra Control Automation 21.12 文件"^]
+* https://docs.netapp.com/us-en/astra-automation-2108/["Astra Control Automation 21.08文件"^]
+

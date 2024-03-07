@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: workflows/wf_manage_app.html 
+keywords:  
+summary: 您可以在特定命名空間中、根據Astra已知的應用程式來建立託管應用程式。當Astra管理或定義應用程式時、您可以透過備份和快照來保護應用程式。 
+---
+= 管理應用程式
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以在特定命名空間中、根據Astra已知的應用程式來建立託管應用程式。當Astra管理或定義應用程式時、您可以透過備份和快照來保護應用程式。
+
+
+
+=== 1.選取命名空間
+
+執行工作流程 link:../workflows/wf_list_namespaces.html["列出命名空間"] 然後選取命名空間。
+
+
+
+=== 2.選取叢集
+
+執行工作流程 link:../workflows_infra/wf_list_clusters.html["列出叢集"] 然後選取叢集。
+
+
+
+=== 3. 管理應用程式
+
+執行下列REST API呼叫來管理應用程式。
+
+[cols="25,75"]
+|===
+| HTTP方法 | 路徑 
+
+
+| 貼文 | /Accounts /｛account_id｝/k8s/v2/apps 
+|===
+
+
+===== 其他輸入參數
+
+除了所有REST API呼叫通用的參數之外、此步驟的Curl範例也會使用下列參數。
+
+[cols="25,10,10,55"]
+|===
+| 參數 | 類型 | 必要 | 說明 
+
+
+| JSON | 本文 | 是的 | 提供識別要管理之應用程式所需的參數。請參閱以下範例。 
+|===
+
+
+===== JSONN輸入範例
+
+[source, json]
+----
+{
+  "clusterID": "7ce83fba-6aa1-4e0c-a194-26e714f5eb46",
+  "name": "subtext",
+  "namespaceScopedResources": [{"namespace": "kube-matrix"}],
+  "type": "application/astra-app",
+  "version": "2.0"
+}
+----
+
+
+===== Curl範例：管理應用程式
+
+[source, curl]
+----
+curl --location -i --request POST 'https://astra.netapp.io/accounts/<ACCOUNT_ID>/k8s/v2/apps' --header 'Content-Type: application/astra-app+json' --header 'Accept: */*' --header 'Authorization: Bearer <API_TOKEN>'  --data @JSONinput
+----
