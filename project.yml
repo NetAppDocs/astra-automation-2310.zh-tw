@@ -1,6 +1,7 @@
 ---
 settings:
   name: Astra Automation
+  downlevel: true
   internal:
     pdf_enabled: true
     api_enabled: true
