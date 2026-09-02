@@ -18,6 +18,7 @@ summary: 您可以列出特定Astra帳戶的通知。您可以在監控系統活
 
 
 
+[[1-list-the-notifications]]
 === 1.列出通知
 
 執行下列REST API呼叫。

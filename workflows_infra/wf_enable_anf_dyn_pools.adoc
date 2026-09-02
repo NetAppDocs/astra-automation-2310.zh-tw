@@ -21,6 +21,7 @@ NOTE: 動態 anf 資源池是 Astra 託管應用程式的功能、使用 Azure N
 
 
 
+[[1-add-the-azure-subscription-identifier]]
 === 1. 新增 Azure 訂閱識別碼
 
 執行下列REST API呼叫。
@@ -72,18 +73,21 @@ curl --location -i --request POST --data @JSONinput 'https://astra.netapp.io/acc
 ----
 
 
+[[2-add-a-bucket-if-needed]]
 === 2. 視需要新增貯體
 
 如有需要、您應將儲存庫新增至託管應用程式。
 
 
 
+[[3-take-a-backup-of-the-managed-app]]
 === 3. 備份託管應用程式
 
 執行工作流程 link:../workflows/wf_create_backup.html["為應用程式建立備份"]。原始持續磁碟區所在的容量集區將會自動擴充和縮小。
 
 
 
+[[4-review-the-event-log]]
 === 4. 檢閱事件記錄
 
 活動事件會在備份期間記錄。執行工作流程 link:../workflows/wf_list_notifications.html["列出通知"] 以檢視訊息。

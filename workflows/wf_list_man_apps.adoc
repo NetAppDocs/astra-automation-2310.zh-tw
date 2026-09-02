@@ -18,6 +18,7 @@ summary: 您可以列出目前由Astra管理的應用程式。您可以在尋找
 
 
 
+[[1-list-the-applications]]
 === 1.列出應用程式
 
 執行下列REST API呼叫。

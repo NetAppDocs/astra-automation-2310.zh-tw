@@ -18,6 +18,7 @@ summary: 您可以列出可用的命名空間。
 
 
 
+[[1-list-the-namespaces]]
 === 1.列出命名空間
 
 執行下列REST API呼叫、以列出命名空間。

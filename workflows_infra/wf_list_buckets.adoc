@@ -18,6 +18,7 @@ summary: 您可以列出針對特定Astra帳戶所定義的S3儲存區。
 
 
 
+[[1-list-the-buckets]]
 === 1.列出庫存箱
 
 執行下列REST API呼叫、以列出儲存區。

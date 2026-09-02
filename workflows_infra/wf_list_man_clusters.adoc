@@ -18,6 +18,7 @@ summary: 您可以列出目前由Astra管理的Kubernetes叢集。
 
 
 
+[[1-list-the-managed-clusters]]
 === 1.列出託管叢集
 
 執行下列REST API呼叫。

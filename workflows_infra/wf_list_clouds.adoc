@@ -18,6 +18,7 @@ summary: 您可以列出已定義的雲端、以及可用的特定Astra帳戶。
 
 
 
+[[1-list-the-clouds]]
 === 1.列出雲端
 
 執行下列REST API呼叫、以列出雲端。
