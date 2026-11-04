@@ -510,7 +510,7 @@ roleBinding_1.1_get_response_body
 
 * 
 +
-= 允許存取任何雲端中任何叢集中所有標記為「dev」的命名空間及其下的所有資源："roleConstraints": [ "namespaces:kubernetesLabels='http://dev.example.com/appname=dev["dev.example.com/appname=dev'.*"]" ]
+= 允許存取任何雲端中任何叢集內標記為 "dev" 的所有命名空間及其下的所有項目："roleConstraints": [ "namespaces:kubernetesLabels='dev.example.com/appname=dev'.*"]
 
 * 
 +
